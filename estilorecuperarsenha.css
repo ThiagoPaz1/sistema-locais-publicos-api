@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url(maps.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 0px 0px 50px rgba(0,0,0,0);
+}
+.Title{
+    max-width: 400px;
+    margin: 20px auto;
+    font-size: 25px;
+    background-color: #fffdfdcc;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px, 0px, 50px rgba(0,0,0,0);
+    border: 3px solid rgba(12, 38, 56);
+}
+.form-group{
+    margin-bottom: 15px;
+}
+label{
+    font-size: 20px;
+    display: inline-block;
+    width: 75px;
+}
+input[type="email"]{
+    width: calc(100% - 120px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+h1{
+    color: rgba(0, 0, 155, 0.788);
+    font-weight: bolder;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+button{
+    color: #fff;
+    background-color: rgba(44, 135, 177, 0.751);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: backgroun-color 0.3s ease;
+}
+button:hover{
+    background-color: rgba(16, 62, 81);
+    text-decoration: underline;
+}
+button:focus{
+    outline: none;
+}
